@@ -22,6 +22,38 @@
     letter-spacing: 1px;
 }
 
+/* botão adicionar */
+
+.add-div{
+    background-color: #3476e2;
+    cursor: pointer;
+    display: inline-block;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+
+.fas.fa-plus{
+    color: #fff;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+/* search*/
+
+.fas.fa-search{
+    position: absolute;
+    top: 12px;
+    right: 26px;
+}
+
+.search-div{
+    padding: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
 /* lista de tarefas*/
 
 .list-div{
@@ -37,7 +69,7 @@
     font-size: 20px;
     height: 50px;
     padding-top: 10px;
-    border: 1px dashed #ccc;
+    border-bottom: 1px dashed #ccc;
 }
 
 .fas.fa-trash, .fas.fa-edit{
